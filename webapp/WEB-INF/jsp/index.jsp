@@ -14,7 +14,8 @@
 <div id="container" style="height: 30%;width: 30%"></div>
 <div id="message"></div>
 <script src="/js/jquery-1.8.3.min.js"></script>
-<script src="/js/echarts.min.js"></script>
+<!--<script src="/js/echarts.min.js"></script> -->
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script>
 <script type="text/javascript">
     var myChart = echarts.init(document.getElementById('container'));
     myChart.setOption({
